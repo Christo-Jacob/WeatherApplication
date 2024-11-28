@@ -1,0 +1,81 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   background-image: linear-gradient(#c4dcff, #dceeff);
+   background-size: contain;
+}
+.SearchLocation {
+   width: 100%;
+   height: fit-content;
+   border-radius: 20px;
+   box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.54),
+      0 6px 20px 0 rgba(255, 255, 255, 0.54);
+}
+.error {
+   display: none;
+   color: red;
+}
+.Location {
+   text-transform: capitalize;
+}
+.WeatherCondition {
+   padding: 20px;
+   padding-top: 0px;
+   width: 100%;
+   height: fit-content;
+
+   border-radius: 20px;
+   box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.54),
+      0 6px 20px 0 rgba(255, 255, 255, 0.54);
+}
+.head {
+   margin-top: 20px;
+   width: 100%;
+   height: fit-content;
+   padding: 10px 5px;
+
+   border-radius: 20px;
+   box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.54),
+      0 6px 20px 0 rgba(255, 255, 255, 0.54);
+}
+
+.weather {
+   padding: 30px;
+   margin-top: 20px;
+   width: 100%;
+   height: fit-content;
+   padding: 20px 10px;
+
+   border-radius: 20px;
+   box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.54),
+      0 6px 20px 0 rgba(255, 255, 255, 0.54);
+}
+
+.days {
+   padding: 30px;
+   margin-top: 20px;
+   width: 200px;
+   height: fit-content;
+   padding: 20px 10px;
+
+   border-radius: 20px;
+   box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.54),
+      0 6px 20px 0 rgba(255, 255, 255, 0.54);
+}
+.col {
+   padding: 30px;
+   padding-top: 0;
+   padding-bottom: 0;
+   margin-bottom: 5px;
+   width: fit-content;
+   height: fit-content;
+}
+.Forecast {
+   padding-top: 0;
+   display: flex;
+   overflow: auto;
+}
